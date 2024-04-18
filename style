@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 50% auto;
+    background-color: hsl(0, 0%, 8%);display: grid;
+    place-items: center;
+    
+}
+
+.sm-container {
+    max-width: 100%;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    padding: 2em;
+    border-radius: 5px;
+    
+}
+
+h1, h2, p {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter';
+
+}
+.sm-tab {
+    padding: 0 1.5rem;
+    max-width: 100%;
+}
+
+.sm-tab a {
+    
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    font-size: 14px;
+    margin: 5px;
+    font-weight: 400;
+    
+}
+
+.sm-tab li {
+    padding: 1.5rem;
+    list-style: none;
+    max-width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    align-self: center;
+    font-family: 'Inter';
+    border-radius: 5px;
+}
+
+.sm-tab li:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+.sm-container img {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    margin: .5rem;
+    font-weight: 700;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+p {
+    margin: 2rem;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.attribution { font-size: 11px; text-align: center; color: hsl(0, 0%,100%); }
+.attribution a { color: hsl(228, 45%, 44%);}
